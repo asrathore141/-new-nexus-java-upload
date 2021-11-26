@@ -69,7 +69,7 @@ pipeline {
             }
         }
     }
-}', 
+}, 
                     nexusVersion: 'nexus3', 
                     protocol: 'http', 
                     repository: nexusRepoName, 
