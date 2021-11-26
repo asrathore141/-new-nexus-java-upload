@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'maven3'
+        maven 'Apache Maven 3.6.3'
     }
     options {
         buildDiscarder logRotator(daysToKeepStr: '5', numToKeepStr: '7')
@@ -32,7 +32,7 @@ pipeline {
                     nexusUrl: 'pipeline' {
     agent any
     tools {
-        maven 'maven3'
+        maven 'Apache Maven 3.6.3'
     }
     options {
         buildDiscarder logRotator(daysToKeepStr: '5', numToKeepStr: '7')
