@@ -24,7 +24,7 @@ pipeline {
                     nexusUrl: '3.137.164.105', 
                     nexusVersion: 'nexus3', 
                     protocol: 'http', 
-                    repository: 'http://3.137.164.105:8081/#browse/browse:bhanu-test-release', 
+                    repository: 'http://3.137.164.105:8081/repository/bhanu-test-snapshot/', 
                     version: '1.0.0'
             }
         }
