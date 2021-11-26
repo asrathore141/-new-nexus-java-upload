@@ -15,7 +15,7 @@ pipeline {
                         [
                             artifactId: 'simple-app', 
                             classifier: '', 
-                            file: 'target/simple-ap-1.0.0.war', 
+                            file: '/var/lib/jenkins/workspace/nexus-upload/target/simple-app-3.0.0-SNAPSHOT.war', 
                             type: 'war'
                         ]
                     ], 
