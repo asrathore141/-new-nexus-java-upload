@@ -29,7 +29,7 @@ pipeline {
                     ], 
                     credentialsId: 'nexus3', 
                     groupId: 'in.javahome', 
-                    nexusUrl: 'pipeline {
+                    nexusUrl: 'pipeline' {
     agent any
     tools {
         maven 'maven3'
