@@ -19,12 +19,12 @@ pipeline {
                             type: 'war'
                         ]
                     ], 
-                    credentialsId: 'nexus3', 
+                    credentialsId: 'nexus', 
                     groupId: 'in.javahome', 
-                    nexusUrl: '3.137.164.105', 
+                    nexusUrl: '172.31.12.241', 
                     nexusVersion: 'nexus3', 
                     protocol: 'http', 
-                    repository: 'http://3.137.164.105:8081/repository/bhanu-test-snapshot/', 
+                    repository: 'http://3.137.164.105:8081/repository/bhanu-test-release/', 
                     version: '1.0.0'
             }
         }
